@@ -1,0 +1,10 @@
+
+h1{
+    background: cornflowerblue;
+    display: inline-block;
+}
+
+a{
+    background: cornflowerblue;
+    display: block;
+}

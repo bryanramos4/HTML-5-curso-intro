@@ -1,0 +1,43 @@
+.nav-enlace {
+    display: inline-block;
+    background: salmon;
+    color: antiquewhite;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: rosybrown;
+}
+
+nav{
+    background: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button{
+    background: salmon;
+    padding: 10px;
+    color: antiquewhite;
+    border: 2px solid white;
+    display: none;
+
+}
+
+@media (max-width: 500px) {
+    nav{
+        background: skyblue;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-button{
+       display: inline-block; 
+    }
+    .desaparece{
+        display: none;
+    }
+  }

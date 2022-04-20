@@ -1,0 +1,12 @@
+button{
+    background-color: aqua;
+    color: darkorange;
+}
+
+button:hover{
+    background-color: darkkhaki;
+}
+
+button:active{
+    background-color: darkorchid;
+}

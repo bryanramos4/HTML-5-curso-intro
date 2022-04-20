@@ -1,0 +1,66 @@
+body{
+    font-family: 'Square Peg', cursive;
+}
+
+h2{
+    font-weight: 1000;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 50px;
+    color: blue;
+}
+
+.btn-precio{
+    background: palevioletred;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-precio:hover{
+    background: salmon;
+}
+
+@media (max-width: 850px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 550px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
